@@ -1,10 +1,8 @@
-public class Dayoftheweek {
+public class DayOfTheWeek {
     public static void main(String[] args) {
         boolean result=isWeekend("Wednesday");
         System.out.println(result);
-
     }
-
     public static boolean isWeekend(String weekday) {
         switch (weekday) {
             case "Monday":
@@ -29,9 +27,6 @@ public class Dayoftheweek {
                 return true;
             default:
                 return false;
-
-
         }
-
     }
 }
